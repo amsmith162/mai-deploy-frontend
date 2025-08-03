@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('https://maideploy-amit-srivastavas-projects-95a93941.vercel.app//life_chat', {
+        fetch('https://maideploy-amit-srivastavas-projects-95a93941.vercel.app/life_chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
